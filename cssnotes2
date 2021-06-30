@@ -20,7 +20,7 @@ External
 Inline
 
 ```Internal style ex
-<style>
+style.css
  h1 {
 color:yellow
 } ```
@@ -31,6 +31,48 @@ to link to a style.css somewhere
 
 ```Inline style example
 <p . . .  get notes here
+```
+<h3>There are CSS selectors</h3>
+
+*class selectors
+###Class selectors
+```
+.highlight {
+backgorund-color:red;
+text-align:center;
+}
+
+in the html file
+<p class = "highlight">hello world</p>
+<h1 class = "highight">hello world</h1>
+```
+
+*Id selectors
+###Id Selectors
+#highlight{
+backgorund-color:red;
+text-align:center;
+}
+
+in htm
+<p id="highlight">hello world</p>
+
+*elements selectors
+###Elements
+```
+p, h1, h2, h3, h4{
+backgorund-color:red;
+text-align:center;
+}
+```
+
+*universal selectors
+###universal selectors
+selects every single element on the webpage
+```
+*{
+margin: 0;
+}
 ```
 
 
