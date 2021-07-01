@@ -1,10 +1,19 @@
-var myName = "Demarcus";
-console.log(myName);
+function checkName(guessedName){
+ if(guessedName == "naruto"){
+   return true;
+}
+ else{
+   return false;
+ }
+}
 
-
-
-function getUserAge(){
-var userAge = prompt("What is your age?");
-if (userAge >=21){
-writeage()}
+function guessingGame(){
+  var name = prompt("Who is the main character of the anime Naruto?");
+  var guessedCorrectly = checkName(naruto);
+    if(guessedCorrectly){
+      alert("Correct Name Guessed!")
+    }
+    else{
+      alert("Incorrect Name, Try Again!")
+    }
 }
