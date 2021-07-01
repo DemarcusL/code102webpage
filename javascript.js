@@ -9,7 +9,7 @@ function checkName(guessedName){
 
 function guessingGame(){
   var name = prompt("Who is the main character of the anime Naruto?");
-  var guessedCorrectly = checkName(naruto);
+  var guessedCorrectly = checkName(name);
     if(guessedCorrectly){
       alert("Correct Name Guessed!")
     }
