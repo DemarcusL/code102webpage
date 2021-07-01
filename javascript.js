@@ -1,5 +1,5 @@
 function checkName(guessedName){
- if(guessedName == "naruto"){
+ if(guessedName == "Naruto"){
    return true;
 }
  else{
