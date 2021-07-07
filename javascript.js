@@ -7,7 +7,7 @@ function checkName(guessedName){
  }
 }
 
-function guessingGame(){
+function guessingGame(Naruto){
   var name = prompt("Who is the main character of the anime Naruto?");
   var guessedCorrectly = checkName(name);
     if(guessedCorrectly){
