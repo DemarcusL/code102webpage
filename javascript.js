@@ -24,12 +24,12 @@ for (i = 0; i < 15; i = i+2){
 
 attempts = 0;
 
-while(attempts < 3){
+``` while(attempts < 3){
   prompt("Enter a tail number");
   attempts = attempts + 1
-}
+} ```
 
-function bestfriendName(guessedName){
+``` function bestfriendName(guessedName){
     if(guessedName == "Sasuke")
     return true;
    }
@@ -44,6 +44,5 @@ function bestfriendName(){
       else{
         alert("You have made fanboys cry today, Try Again")
   }
-}
+} ```
 
-((2 * 90) === 180) && (false && 'true') 
