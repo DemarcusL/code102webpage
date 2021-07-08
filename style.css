@@ -8,5 +8,6 @@ body {
 img {
   width: 100px;
   height: 120px;
+  float: right; 
 }
 

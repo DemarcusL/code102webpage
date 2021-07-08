@@ -45,3 +45,5 @@ function bestfriendName(){
         alert("You have made fanboys cry today, Try Again")
   }
 }
+
+((2 * 90) === 180) && (false && 'true') 
