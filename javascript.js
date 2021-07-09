@@ -7,7 +7,7 @@ function checkName(guessedName){
  }
 }
 
-function guessingGame(Naruto){
+function guessingGame(){
   var name = prompt("Who is the main character of the anime Naruto?");
   var guessedCorrectly = checkName(name);
     if(guessedCorrectly){
@@ -18,31 +18,27 @@ function guessingGame(Naruto){
     }
 }
 
-for (i = 0; i < 15; i = i+2){
-    console.log(i);
-}
+
+/*var tailCount= prompt("Enter a tail number");
 
 attempts = 0;
 
-``` while(attempts < 3){
-  prompt("Enter a tail number");
+ while(attempts < tailCount){
+  console.log(attempts);
+
   attempts = attempts + 1
-} ```
-
-``` function bestfriendName(guessedName){
-    if(guessedName == "Sasuke")
-    return true;
-   }
+} */
 
 
-function bestfriendName(){
-    var name = text("What is Naruto's bestfriend name")
-    var guessedCorrectly = checkName(Sasuke);
-      if(guessedCorrectly){
-        alert("You have summoned the correct Shinobi.")
-      }
-      else{
-        alert("You have made fanboys cry today, Try Again")
-  }
-} ```
+// do {
+//   num = prompt("Enter the number of tails Naruto has!", 0);
+// } while (num <= 9 && num);
+
+function displayTails(){
+    var anime = parseInt(prompt("How many Nine Tails (Karuma) do you want at the bottom of the screen?"));
+    for(let i = 0; i < anime; i++) {
+      document.write('<img src="https://m.media-amazon.com/images/I/41BgUB8RcpL._AC_SS450_.jpg">');
+      console.log(i); 
+    } 
+}
 
