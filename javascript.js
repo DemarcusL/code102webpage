@@ -8,8 +8,7 @@ function checkName(guessedName){
 }
 
 function guessingGame(){
-  // var name = prompt("Who is the main character of the anime Naruto?");
-  // var guessedCorrectly = checkName(name);
+
     var guessedCorrectly = false;
     while(guessedCorrectly == false){
     guessedCorrectly = checkName(prompt("Who is the main character of the anime Naruto?"));
@@ -24,20 +23,7 @@ function guessingGame(){
 }
 
 
-/*var tailCount= prompt("Enter a tail number");
 
-attempts = 0;
-
- while(attempts < tailCount){
-  console.log(attempts);
-
-  attempts = attempts + 1
-} */
-
-
-// do {
-//   num = prompt("Enter the number of tails Naruto has!", 0);
-// } while (num <= 9 && num);
 
 function displayTails(){
     var anime = parseInt(prompt("How many Nine Tails (Karuma) do you want at the bottom of the screen?"));
