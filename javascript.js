@@ -8,14 +8,19 @@ function checkName(guessedName){
 }
 
 function guessingGame(){
-  var name = prompt("Who is the main character of the anime Naruto?");
-  var guessedCorrectly = checkName(name);
-    if(guessedCorrectly){
-      alert("You used summoning jutsu to gather that correct name!")
+  // var name = prompt("Who is the main character of the anime Naruto?");
+  // var guessedCorrectly = checkName(name);
+    var guessedCorrectly = false;
+    while(guessedCorrectly == false){
+    guessedCorrectly = checkName(prompt("Who is the main character of the anime Naruto?"));
+    if(guessedCorrectly == true ){
+      alert("You used summoning jutsu to gather that correct name!");
+    guessedCorrectly = true;
     }
     else{
       alert("Incorrect Shinobi, Try Again!")
     }
+  }
 }
 
 
